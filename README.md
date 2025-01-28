@@ -26,3 +26,12 @@ Using dotenv and models this project
     bcrypt==4.0.1
     psycopg2-binary
     python-dotenv
+
+#### Project1.2 - v4:
+Study foreign key and primary key
+
+###### Library
+    passlib
+    bcrypt==4.0.1
+    psycopg2-binary
+    python-dotenv
