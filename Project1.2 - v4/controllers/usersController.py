@@ -38,8 +38,18 @@ class UserController:
             create_post = input("Create a new post? Yes or No: ").lower()
             
             if create_post == 'yes':
-                post = PostController(id)
+                post = PostController()
+                post.create_post(id)
                 return False
+            if create_post == "no":
+                check_post = input("Do you want to check all users posts? Yes or No: ").lower()
+                
+                if check_post == "yes":
+                    posts = PostController()
+                    posts.user_posts(id)
+                    return False
+                else:
+                    return False
             else: 
-                print(f"Thank you!")
+                print(f"Typo error: {create_post}")
     

@@ -44,7 +44,7 @@ class Schemas:
                         id SERIAL PRIMARY KEY,
                         user_id INT NOT NULL,
                         content TEXT NOT NULL,
-                        created_at TIMESTAM DEFAULT NOW(),
+                        created_at TIMESTAMP DEFAULT NOW(),
                         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
                     )
                 """
