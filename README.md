@@ -29,12 +29,11 @@ python-dotenv
 ```
 
 ## Project1.2 - v4:
-Study foreign key and primary key
-day 2: Manage to make it work :)
-
-    * Create post under users id
-    * Check all posts
-    * Check all posts of the users id
+** Study foreign key and primary key
+** day 2: Manage to make it work :)
+    ** Create post under users id
+    ** Check all posts
+    ** Check all posts of the users id
 
 * Library
 ```
