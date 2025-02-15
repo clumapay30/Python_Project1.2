@@ -48,3 +48,11 @@ python-dotenv
 
 ## Project 1.2 - v5:
 Create todo project 
+
+_Library_
+```
+passlib
+bcrypt==4.0.1
+psycopg2-binary
+python-dotenv
+```

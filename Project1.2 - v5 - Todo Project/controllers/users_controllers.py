@@ -40,7 +40,7 @@ class UserControl(TodoControl):
                 self.delete_todo(user_id)
                 # return False
             elif control == "logout":
-                self.logout()
+                self.shutdown_app()
                 return False
             else:
                 print(f"Invalid! You type: {control} \n")
@@ -65,3 +65,6 @@ class UserControl(TodoControl):
         
     def change_password(self):
         print("Changing password")
+        
+    def shutdown_app(self):
+        print("Thank you for playing todo app! I'll see you soon")
